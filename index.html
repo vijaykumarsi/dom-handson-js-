@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js hands on</title>
+    <style>
+      * {
+        background-color: aqua;
+      }
+      #parent {
+        height: 500px;
+        width: 600px;
+        background-color: aqua;
+        display: flex;
+      }
+      .card {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(23, 24, 24);
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+   <li><p>write a code to access which is having id as "text"</p>
+    <div id="text">welcome to prepbytes</div>
+    <button onclick="callme()">submit</button>
+
+    <hr />
+
+    <li>
+      <p>write the code to access element which is having tag as "h1"?</p>
+    </li>
+
+    <h1>welcome solution number2</h1>
+
+    <hr />
+
+    <li>
+      <p>Q3write a code to access element which is having class as "box"?</p>
+    </li>
+
+    <div class="box">welcome solution number 3</div>
+
+
+    <hr>
+
+
+    <li><p> Q4<pre><h>"hello"</h>change the following hello 
+     to" hello world" using doom function</pre></p></li>
+
+
+     <div id="q4">HELLO</div>
+     <button onclick="call()">submit</button>
+
+    <hr>
+
+    
+
+
+    <li><p>Q5 create an html page having content as hello world and a button named replace text  when user  will click on this button  page content should be change to "welcome to elevation academy "? </p></li>
+
+
+    <div id="q5">hello</div>
+     <button onclick="calll()">submit</button>
+
+    <hr>
+
+    
+
+
+
+
+
+
+    <li><p>hello , add one style attributed and give text colors as red and id attributte and given the id  value as "heading " on the  given h1 tag using dom function ? </p></li>
+
+    <div id="q6">hello</div>
+    <button id="callll">submit</button>
+
+    <hr>
+
+
+
+
+
+
+
+
+    <li><p>create three carss and when we click on button cards directiopn will change ?</p></li>
+
+    <div id="parent">
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+    <button id="sbmt">submit</button>
+    <hr>
+
+
+    <li><p>whats the different between windows vs document ?</p></li>
+
+  <pre>
+    Window
+It represents the browser window in which you are seeing the content.
+The properties related to it are stored in the window object.
+It is loaded before the document because of the window container document.
+The window is the global element for all objects, functions, etc.,
+It is an object of the browser.
+We can access document object properties inside the window.
+Example: Window.document.title will return the title of the document.
+Logically:
+
+                  Window:{
+                    document:{properties}
+                  }
+Document
+It represents the document loaded inside the window of browser.
+The properties related to it are stored in the document object.
+It is loaded after the loading window because the window contains a document.
+It is the root element of the document object model.
+It is an object of the window.
+We can not access windows objects properties inside the document.
+Example: document.title will return the title of the document.
+Logically:
+            document:{properties}
+  </pre>
+  <hr>
+
+
+
+  <li><p>write  code to implement time clock using js 
+     - display HH:MM:SS -- THE TIME SHOLUD KEEP  UPDATING EVERY SECOND
+  </p></li>
+
+
+  <div id="input" ></div>
+  <button onclick="D()">Start Clock</button>
+
+
+
+
+
+
+
+  <li><p> <a href="./game.html"> CLICK HERE TO PLAY GAME</a></p></li>
+
+  </ol>
+
+
+  
+
+
+
+  
+
+
+
+
+    
+    <script src="./java.js"></script>
+  </body>
+</html>
